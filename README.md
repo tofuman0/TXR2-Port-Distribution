@@ -4,6 +4,25 @@
 Tofuman and this project are unaffiliated with Genki. This is a bring-your-own-ROM
 release. No original game assets are distributed.
 
+## Native C++ engine
+
+TXR2 Port runs natively in C++20 on Windows and Linux without Dreamcast CPU
+emulation. The racing engine uses typed vehicle data and simulation state.
+This function validates the current gear state, applies automatic gear selection
+to a copy, and writes back the result once the update succeeds.
+
+```cpp
+void RaceEngineTables::SelectAutomaticGear(
+    RaceEngineState& state,
+    const RaceEngineCarInfo& car) const
+{
+    ValidateGearState(state);
+    auto next = state;
+    AutomaticGear(next, car);
+    state = next;
+}
+```
+
 ## Downloads
 
 Version **2026.0.4.58**
