@@ -26,17 +26,19 @@ void RaceEngineTables::SelectAutomaticGear(
 ## Downloads
 
 Version **2026.0.4.58**
-Built from [source revision d065b7a](https://github.com/tofuman0/TXR2-Port/commit/d065b7a2db810ba0a23b98cf51229e1e9e4c626d).
+Built from [source revision 29db799](https://github.com/tofuman0/TXR2-Port/commit/29db7992baafa87500ac4cf46e21ddfb4f23ba78).
 
 | Platform | ZIP | SHA-256 |
 | --- | --- | --- |
-| Windows x64 | [txr2-2026.0.4.58-Windows-x64.zip](downloads/txr2-2026.0.4.58-Windows-x64.zip) | `b10cdd78154faf2a3f3bf68a5c9fe1eb2e237c93879e7530948a24b0ea45a838` |
-| Linux x64 | [txr2-2026.0.4.58-Linux-x64.zip](downloads/txr2-2026.0.4.58-Linux-x64.zip) | `bce3226f6babd7021fb4f2bf5cf6aa095cdf72582d6a4b775ab19c02a7e01729` |
+| Windows x64 | [txr2-2026.0.4.58-Windows-x64.zip](downloads/txr2-2026.0.4.58-Windows-x64.zip) | `f085a11ce0d0396bdef3d2d1cb2f98369102edff0bc6874ba2599f04af7f587d` |
+| Linux x64 | [txr2-2026.0.4.58-Linux-x64.zip](downloads/txr2-2026.0.4.58-Linux-x64.zip) | `ac58eb89883cb07200121b6d9b91fbc5d2cb002c974f80de418a8f3a8ff07196` |
 
 ## Getting started
 
 Download and extract the ZIP for your operating system. Place your own extracted
-game files directly in `data` beside the executable. Use the supported US
+game files directly in `data` beside the executable. The bundled Dreamcast
+Disc Extractor is in `Disc Extractor`. Choose your disc image as ROM In and
+the game's `data` folder as Data Out. Use the supported US
 Dreamcast release `T40211N V1.002`. The port runs without `1ST_READ.BIN`.
 Launch `txr2.exe` on Windows or `./txr2` on
 Linux. A Vulkan-capable graphics driver is required. To use a different folder,
@@ -66,10 +68,16 @@ pass `--rom-dir <path>`.
 
 The [TXR2 documentation repository](https://github.com/tofuman0/txr2-documentation) is planned.
 
+In Quick Race, press F7 during GO to use instant win with cheats enabled.
+Using it marks the run as cheated.
+
+In Graphics Test, F10 toggles the fixed Genki reflection target in the
+adjacent lane. The target starts hidden.
+
 ## Screenshots
 
 ![Port startup splash](screenshots/startup.png)
 
 ![Quest garage](screenshots/garage.png)
 
-![Time Attack gameplay](screenshots/gameplay.png)
+![Free Run gameplay](screenshots/gameplay.png)
