@@ -25,13 +25,18 @@ void RaceEngineTables::SelectAutomaticGear(
 
 ## Downloads
 
-Version **2026.0.5.88**
-Built from [source revision 880e2ab](https://github.com/tofuman0/TXR2-Port/commit/880e2ab5dfc18c9ca2589f583f8ac3bc11898336).
+Version **2026.0.5.133**
+Built from [source revision 621b6b4](https://github.com/tofuman0/TXR2-Port/commit/621b6b450d9f92becaffb05fd65841407eb5d09c).
 
 | Platform | ZIP | SHA-256 |
 | --- | --- | --- |
-| Windows x64 | [txr2-2026.0.5.88-Windows-x64.zip](downloads/txr2-2026.0.5.88-Windows-x64.zip) | `6b4bf1928ff010177edaed2366bf9dd2d7d22b7115e6781c1bdcba28d5d0926f` |
-| Linux x64 | [txr2-2026.0.5.88-Linux-x64.zip](downloads/txr2-2026.0.5.88-Linux-x64.zip) | `23e0cec60a9d36dfd23aa7f28f0f678d5bf51a1f985f3a2e15cdbcfe1ce80d91` |
+| Windows x64 | [txr2-2026.0.5.133-Windows-x64.zip](downloads/txr2-2026.0.5.133-Windows-x64.zip) | `5775c556b6ddc5e8d4a9ce371d36ae5de628dc9f133c807e13666213bf54744a` |
+| Linux x64 | [txr2-2026.0.5.133-Linux-x64.zip](downloads/txr2-2026.0.5.133-Linux-x64.zip) | `cb845d0b728a35ba55847d96a2bbf6734e6a190a0aadc0d6fc6e54e14ecb2e52` |
+
+## This build
+
+- Optional **Custom FMV** in Game Config, with bundled caption artwork.
+- Widescreen demo logo aligned to the right.
 
 ## Getting started
 
