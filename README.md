@@ -25,13 +25,13 @@ void RaceEngineTables::SelectAutomaticGear(
 
 ## Downloads
 
-Version **2026.0.4.58**
-Built from [source revision 29db799](https://github.com/tofuman0/TXR2-Port/commit/29db7992baafa87500ac4cf46e21ddfb4f23ba78).
+Version **2026.0.5.88**
+Built from [source revision 880e2ab](https://github.com/tofuman0/TXR2-Port/commit/880e2ab5dfc18c9ca2589f583f8ac3bc11898336).
 
 | Platform | ZIP | SHA-256 |
 | --- | --- | --- |
-| Windows x64 | [txr2-2026.0.4.58-Windows-x64.zip](downloads/txr2-2026.0.4.58-Windows-x64.zip) | `f085a11ce0d0396bdef3d2d1cb2f98369102edff0bc6874ba2599f04af7f587d` |
-| Linux x64 | [txr2-2026.0.4.58-Linux-x64.zip](downloads/txr2-2026.0.4.58-Linux-x64.zip) | `ac58eb89883cb07200121b6d9b91fbc5d2cb002c974f80de418a8f3a8ff07196` |
+| Windows x64 | [txr2-2026.0.5.88-Windows-x64.zip](downloads/txr2-2026.0.5.88-Windows-x64.zip) | `6b4bf1928ff010177edaed2366bf9dd2d7d22b7115e6781c1bdcba28d5d0926f` |
+| Linux x64 | [txr2-2026.0.5.88-Linux-x64.zip](downloads/txr2-2026.0.5.88-Linux-x64.zip) | `23e0cec60a9d36dfd23aa7f28f0f678d5bf51a1f985f3a2e15cdbcfe1ce80d91` |
 
 ## Getting started
 
