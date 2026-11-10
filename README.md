@@ -25,17 +25,18 @@ void RaceEngineTables::SelectAutomaticGear(
 
 ## Downloads
 
-Version **2026.0.5.134**
-Built from [source revision 28b400c](https://github.com/tofuman0/TXR2-Port/commit/28b400c18bbd7ce43f498e81687205c4ac98392e).
+Version **2026.0.5.136**
+Built from [source revision 160fca3](https://github.com/tofuman0/TXR2-Port/commit/160fca3fb532d2d582f02165bf503ad014b843de).
 
 | Platform | ZIP | SHA-256 |
 | --- | --- | --- |
-| Windows x64 | [txr2-2026.0.5.134-Windows-x64.zip](downloads/txr2-2026.0.5.134-Windows-x64.zip) | `a8e7da3c69bbd6149ce89210f17fe3a7fb2eb4702e9b0135dec503423162538a` |
-| Linux x64 | [txr2-2026.0.5.134-Linux-x64.zip](downloads/txr2-2026.0.5.134-Linux-x64.zip) | `9ecb47aee1bfbd6eff8a89b971f0a78d0e5eff44dd6a6d8d15d17b326e91016e` |
+| Windows x64 | [txr2-2026.0.5.136-Windows-x64.zip](downloads/txr2-2026.0.5.136-Windows-x64.zip) | `dfdc7f5afb4c645d4b8607f13eac81ff58f32f8c0c4d8debf8a19b831982a7de` |
+| Linux x64 | [txr2-2026.0.5.136-Linux-x64.zip](downloads/txr2-2026.0.5.136-Linux-x64.zip) | `63783515f02a30c319bb7409302caaa9f13bccf12e0ebf9a0d38601798dabd86` |
 
 ## This build
 
-- `IP.BIN` is optional; the port uses the selected data folder and assumes supported game data.
+- Battle HUD and mirror layout fixes, corrected battle progression, and hyperspeed replay recording.
+- Publishing tests were skipped for this build.
 
 ## Getting started
 
