@@ -25,18 +25,17 @@ void RaceEngineTables::SelectAutomaticGear(
 
 ## Downloads
 
-Version **2026.0.5.133**
-Built from [source revision 621b6b4](https://github.com/tofuman0/TXR2-Port/commit/621b6b450d9f92becaffb05fd65841407eb5d09c).
+Version **2026.0.5.134**
+Built from [source revision 28b400c](https://github.com/tofuman0/TXR2-Port/commit/28b400c18bbd7ce43f498e81687205c4ac98392e).
 
 | Platform | ZIP | SHA-256 |
 | --- | --- | --- |
-| Windows x64 | [txr2-2026.0.5.133-Windows-x64.zip](downloads/txr2-2026.0.5.133-Windows-x64.zip) | `5775c556b6ddc5e8d4a9ce371d36ae5de628dc9f133c807e13666213bf54744a` |
-| Linux x64 | [txr2-2026.0.5.133-Linux-x64.zip](downloads/txr2-2026.0.5.133-Linux-x64.zip) | `cb845d0b728a35ba55847d96a2bbf6734e6a190a0aadc0d6fc6e54e14ecb2e52` |
+| Windows x64 | [txr2-2026.0.5.134-Windows-x64.zip](downloads/txr2-2026.0.5.134-Windows-x64.zip) | `a8e7da3c69bbd6149ce89210f17fe3a7fb2eb4702e9b0135dec503423162538a` |
+| Linux x64 | [txr2-2026.0.5.134-Linux-x64.zip](downloads/txr2-2026.0.5.134-Linux-x64.zip) | `9ecb47aee1bfbd6eff8a89b971f0a78d0e5eff44dd6a6d8d15d17b326e91016e` |
 
 ## This build
 
-- Optional **Custom FMV** in Game Config, with bundled caption artwork.
-- Widescreen demo logo aligned to the right.
+- `IP.BIN` is optional; the port uses the selected data folder and assumes supported game data.
 
 ## Getting started
 
@@ -44,7 +43,7 @@ Download and extract the ZIP for your operating system. Place your own extracted
 game files directly in `data` beside the executable. The bundled Dreamcast
 Disc Extractor is in `Disc Extractor`. Choose your disc image as ROM In and
 the game's `data` folder as Data Out. Use the supported US
-Dreamcast release `T40211N V1.002`. The port runs without `1ST_READ.BIN`.
+Dreamcast release `T40211N V1.002`. The port runs without `1ST_READ.BIN` or `IP.BIN`.
 Launch `txr2.exe` on Windows or `./txr2` on
 Linux. A Vulkan-capable graphics driver is required. To use a different folder,
 pass `--rom-dir <path>`.
