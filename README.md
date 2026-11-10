@@ -26,16 +26,16 @@ void RaceEngineTables::SelectAutomaticGear(
 ## Downloads
 
 Version **2026.0.5.136**
-Built from [source revision 160fca3](https://github.com/tofuman0/TXR2-Port/commit/160fca3fb532d2d582f02165bf503ad014b843de).
+Built from [source revision 20d0fd5](https://github.com/tofuman0/TXR2-Port/commit/20d0fd5c69a8f028d7abfcc046c431533f722a94).
 
 | Platform | ZIP | SHA-256 |
 | --- | --- | --- |
-| Windows x64 | [txr2-2026.0.5.136-Windows-x64.zip](downloads/txr2-2026.0.5.136-Windows-x64.zip) | `dfdc7f5afb4c645d4b8607f13eac81ff58f32f8c0c4d8debf8a19b831982a7de` |
-| Linux x64 | [txr2-2026.0.5.136-Linux-x64.zip](downloads/txr2-2026.0.5.136-Linux-x64.zip) | `63783515f02a30c319bb7409302caaa9f13bccf12e0ebf9a0d38601798dabd86` |
+| Windows x64 | [txr2-2026.0.5.136-Windows-x64.zip](downloads/txr2-2026.0.5.136-Windows-x64.zip) | `e056df24e5c2067709878d599094fe2bd9b828dc2bd820b79d479fdc58dc4285` |
+| Linux x64 | [txr2-2026.0.5.136-Linux-x64.zip](downloads/txr2-2026.0.5.136-Linux-x64.zip) | `d5fe54a72f59c67b40941eb5922db2040827e3199c9b6bfd6b174be881b5f4a9` |
 
 ## This build
 
-- Battle HUD and mirror layout fixes, corrected battle progression, and hyperspeed replay recording.
+- Fixed tyre-mark visibility when skidding; the temporary skid diagnostic logging was removed.
 - Publishing tests were skipped for this build.
 
 ## Getting started
