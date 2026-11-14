@@ -25,18 +25,18 @@ void RaceEngineTables::SelectAutomaticGear(
 
 ## Downloads
 
-Version **2026.0.5.136**
-Built from [source revision 20d0fd5](https://github.com/tofuman0/TXR2-Port/commit/20d0fd5c69a8f028d7abfcc046c431533f722a94).
+Version **2026.0.5.245**
+Built from [source revision 77823f7](https://github.com/tofuman0/TXR2-Port/commit/77823f74ce133e60d875bbe9c610c61d10ba8442).
 
 | Platform | ZIP | SHA-256 |
 | --- | --- | --- |
-| Windows x64 | [txr2-2026.0.5.136-Windows-x64.zip](downloads/txr2-2026.0.5.136-Windows-x64.zip) | `e056df24e5c2067709878d599094fe2bd9b828dc2bd820b79d479fdc58dc4285` |
-| Linux x64 | [txr2-2026.0.5.136-Linux-x64.zip](downloads/txr2-2026.0.5.136-Linux-x64.zip) | `d5fe54a72f59c67b40941eb5922db2040827e3199c9b6bfd6b174be881b5f4a9` |
+| Windows x64 | [txr2-2026.0.5.245-Windows-x64.zip](downloads/txr2-2026.0.5.245-Windows-x64.zip) | `346c03004b4a3e97cd5fd5cd99172bef9c512c152bde814f9b990eeb3e10f928` |
+| Linux x64 | [txr2-2026.0.5.245-Linux-x64.zip](downloads/txr2-2026.0.5.245-Linux-x64.zip) | `e95d8692179c86171ee3bf0b018c73c349393c6333370b3a3cff7a2eb2268da1` |
 
 ## This build
 
-- Fixed tyre-mark visibility when skidding; the temporary skid diagnostic logging was removed.
-- Publishing tests were skipped for this build.
+- Fixed Quest course entry and junction exit, restored secondary camera label rendering, and disabled enhanced headlights in the Quest garage.
+- Includes HUD color and reflection updates. Publishing tests were skipped.
 
 ## Getting started
 
@@ -62,6 +62,7 @@ pass `--rom-dir <path>`.
 | `--graphics-test`, `--graphics-test-motion` | Open Graphics Test in its standard or repeatable motion mode. |
 | `--graphics-test-seed <N>`, `--graphics-test-frames <N>` | Set the test seed or stop after a fixed number of frames. |
 | `--capture <image.png>` | Write a PNG capture in a supported test mode. |
+| `--battle-entrance-test` | Open the battle entrance diagnostic. |
 | `--preview-quest-reveal` | Play the standalone Quest reveal. |
 | `--title-frames <N>` | Limit title frames for automated testing. |
 | `--frontend-script <path>`, `--frontend-capture-dir <path>` | Run scripted frontend input and set its PNG output folder. |
@@ -85,4 +86,4 @@ adjacent lane. The target starts hidden.
 
 ![Quest garage](screenshots/garage.png)
 
-![Free Run gameplay](screenshots/gameplay.png)
+![Quest gameplay](screenshots/gameplay.png)
