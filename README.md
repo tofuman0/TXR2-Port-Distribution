@@ -26,17 +26,18 @@ void RaceEngineTables::SelectAutomaticGear(
 ## Downloads
 
 Version **2026.0.5.245**
-Built from [source revision 77823f7](https://github.com/tofuman0/TXR2-Port/commit/77823f74ce133e60d875bbe9c610c61d10ba8442).
+Built from [source revision f3a313ff](https://github.com/tofuman0/TXR2-Port/commit/f3a313ff0e4dbd2324f0811dea0a1e8ea4bc5c74).
 
 | Platform | ZIP | SHA-256 |
 | --- | --- | --- |
-| Windows x64 | [txr2-2026.0.5.245-Windows-x64.zip](downloads/txr2-2026.0.5.245-Windows-x64.zip) | `346c03004b4a3e97cd5fd5cd99172bef9c512c152bde814f9b990eeb3e10f928` |
-| Linux x64 | [txr2-2026.0.5.245-Linux-x64.zip](downloads/txr2-2026.0.5.245-Linux-x64.zip) | `e95d8692179c86171ee3bf0b018c73c349393c6333370b3a3cff7a2eb2268da1` |
+| Windows x64 | [txr2-2026.0.5.245-Windows-x64.zip](downloads/txr2-2026.0.5.245-Windows-x64.zip) | `f3e7376111aed1d7b19b9b55c5f0fe7ef99b57c024c3f61ac9551975035fd594` |
+| Linux x64 | [txr2-2026.0.5.245-Linux-x64.zip](downloads/txr2-2026.0.5.245-Linux-x64.zip) | `14146e0c53fd3988ccd5879464107f46ca85f8629e1ce926b1e94c4d9acbb999` |
 
 ## This build
 
-- Fixed Quest course entry and junction exit, restored secondary camera label rendering, and disabled enhanced headlights in the Quest garage.
-- Includes HUD color and reflection updates. Publishing tests were skipped.
+- Updates Quest progression, driving and garage behavior, and replay management.
+- Removes the CRT filter and optional texture upscaler.
+- Both players passed platform and title-screen smoke checks without the original executable.
 
 ## Getting started
 
