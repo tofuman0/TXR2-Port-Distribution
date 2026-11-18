@@ -25,19 +25,20 @@ void RaceEngineTables::SelectAutomaticGear(
 
 ## Downloads
 
-Version **2026.0.5.245**
-Built from [source revision f3a313ff](https://github.com/tofuman0/TXR2-Port/commit/f3a313ff0e4dbd2324f0811dea0a1e8ea4bc5c74).
+Version **2026.0.5.286**
+Built from [source revision ef4787d2](https://github.com/tofuman0/TXR2-Port/commit/ef4787d276f29ab8cd6ebac183cd4c46ee806c18).
 
 | Platform | ZIP | SHA-256 |
 | --- | --- | --- |
-| Windows x64 | [txr2-2026.0.5.245-Windows-x64.zip](downloads/txr2-2026.0.5.245-Windows-x64.zip) | `f3e7376111aed1d7b19b9b55c5f0fe7ef99b57c024c3f61ac9551975035fd594` |
-| Linux x64 | [txr2-2026.0.5.245-Linux-x64.zip](downloads/txr2-2026.0.5.245-Linux-x64.zip) | `14146e0c53fd3988ccd5879464107f46ca85f8629e1ce926b1e94c4d9acbb999` |
+| Windows x64 | [txr2-2026.0.5.286-Windows-x64.zip](downloads/txr2-2026.0.5.286-Windows-x64.zip) | `c254572019a538dcc64df307d39864485440b790cc765e7513d28155c013778d` |
+| Linux x64 | [txr2-2026.0.5.286-Linux-x64.zip](downloads/txr2-2026.0.5.286-Linux-x64.zip) | `c3371cdb873b58876339d8c7c5e0b335d338b0ceababc5667c628df202dc090a` |
 
 ## This build
 
-- Updates Quest progression, driving and garage behavior, and replay management.
-- Removes the CRT filter and optional texture upscaler.
-- Both players passed platform and title-screen smoke checks without the original executable.
+- Adds December snow, wet tarmac and textured road reflections.
+- Adds seasonal fireworks and saves snow and fireworks with named replays.
+- Adds the in-game debug console and New Year and snow commands.
+- Windows startup and focused tests passed. Linux runtime testing was skipped for this release.
 
 ## Getting started
 
@@ -47,7 +48,7 @@ Disc Extractor is in `Disc Extractor`. Choose your disc image as ROM In and
 the game's `data` folder as Data Out. Use the supported US
 Dreamcast release `T40211N V1.002`. The port runs without `1ST_READ.BIN` or `IP.BIN`.
 Launch `txr2.exe` on Windows or `./txr2` on
-Linux. A Vulkan-capable graphics driver is required. To use a different folder,
+Linux. A Vulkan-capable graphics driver is required. Linux also requires the OpenSSL 3 runtime (`libcrypto.so.3`). To use a different folder,
 pass `--rom-dir <path>`.
 
 ## Command-line arguments
@@ -87,4 +88,4 @@ adjacent lane. The target starts hidden.
 
 ![Quest garage](screenshots/garage.png)
 
-![Quest gameplay](screenshots/gameplay.png)
+![Snowy road and New Year fireworks](screenshots/gameplay.png)
