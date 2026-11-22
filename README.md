@@ -23,6 +23,10 @@ void RaceEngineTables::SelectAutomaticGear(
 }
 ```
 
+## Documentation
+
+Explore cars, rivals, courses, and game mechanics in the [TXR2 documentation](https://tofuman0.github.io/txr2-documentation/).
+
 ## Downloads
 
 Version **2026.0.5.286**
