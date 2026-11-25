@@ -14,8 +14,6 @@ emulation. These examples are taken directly from the production game code.
 
 The parts shop checks availability, existing ownership and credits before granting a part.
 
-[Source](https://github.com/tofuman0/TXR2-Port/blob/aa2a42ae12cdc7fba4f5a273aca38bd38a5b38c0/src/quest_parts_stock.cpp#L848)
-
 ```cpp
 QuestPartPurchaseResult QuestPartsSession::Buy(QuestPartSelection selection,
     std::span<uint8_t, QuestProgressBlockBytes> progress)
@@ -45,8 +43,6 @@ QuestPartPurchaseResult QuestPartsSession::Buy(QuestPartSelection selection,
 
 The garage applies the candidate part to a copy, keeping the fitted car unchanged until the player confirms.
 
-[Source](https://github.com/tofuman0/TXR2-Port/blob/aa2a42ae12cdc7fba4f5a273aca38bd38a5b38c0/src/quest_parts_stock.cpp#L1169)
-
 ```cpp
 std::optional<QuestCarRecord> QuestPartsSession::GetPartPreview(QuestPartSelection selection,
     std::optional<uint8_t> wheelSetting) const
@@ -75,8 +71,6 @@ std::optional<QuestCarRecord> QuestPartsSession::GetPartPreview(QuestPartSelecti
 <summary>Battle rewards</summary>
 
 Battle payouts combine remaining SP, distance, rival priority and encounter history using the recovered game rules.
-
-[Source](https://github.com/tofuman0/TXR2-Port/blob/aa2a42ae12cdc7fba4f5a273aca38bd38a5b38c0/src/battle.cpp#L138)
 
 ```cpp
 BattleAward Battle::CalculateAward(const BattleResult& result, const BattleAwardRules& rules)
@@ -121,7 +115,7 @@ Explore cars, rivals, courses, and game mechanics in the [TXR2 documentation](ht
 ## Downloads
 
 Version **2026.0.6.287**
-Built from [source revision aa2a42ae](https://github.com/tofuman0/TXR2-Port/commit/aa2a42ae12cdc7fba4f5a273aca38bd38a5b38c0).
+Build revision: `aa2a42ae`.
 
 | Platform | ZIP | SHA-256 |
 | --- | --- | --- |
