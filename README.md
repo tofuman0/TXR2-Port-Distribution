@@ -114,21 +114,22 @@ Explore cars, rivals, courses, and game mechanics in the [TXR2 documentation](ht
 
 ## Downloads
 
-Version **2026.0.6.289**
-Build revision: `23972c59227873d43a61a05b9454fdd7c371bf18`.
+Version **2026.0.6.290**
+Build revision: `6415db3930f605a5e7432a7b38549bca43ed490e`.
 
 | Platform | ZIP | SHA-256 |
 | --- | --- | --- |
-| Windows x64 | [txr2-2026.0.6.289-Windows-x64.zip](downloads/txr2-2026.0.6.289-Windows-x64.zip) | `4d9fa99f4cc84fe82bf4aace7079efa2f2c3e1790ded5a1be0d4aafb54ea2f71` |
-| Linux x64 | [txr2-2026.0.6.289-Linux-x64.zip](downloads/txr2-2026.0.6.289-Linux-x64.zip) | `06f8666ba745395d17a47eb791f76925078f850e7b2583217f44253849b416c5` |
+| Windows x64 | [txr2-2026.0.6.290-Windows-x64.zip](downloads/txr2-2026.0.6.290-Windows-x64.zip) | `bbed4caa732f7c94a3b4163d8f969474b1c73213b6c892a280911b30a6e44771` |
+| Linux x64 | [txr2-2026.0.6.290-Linux-x64.zip](downloads/txr2-2026.0.6.290-Linux-x64.zip) | `dabb8556547efcd99801f83eafed0c4f9024a1f9071aad6bba24c312f1df4ac2` |
 
 ## This build
 
-- All existing yellow barriers act as walls in Quick Race, including normal exit junctions, with unchanged visuals and normal wall impacts.
-- Next Round on the first win dialog skips replay and the second menu, while retaining the winning SP.
-- The round display extends to 999, with SP carried through round 100 to 101 and the original rival cycle preserved.
-- The user confirmed the barrier and Next Round fixes on Windows. Focused Windows checks include 1,794 barrier crossings and consecutive-round, Replay, Retry and Save Replay regression tests.
-- Both Release packages passed audits, platform smoke and intro-to-title checks without `1ST_READ.BIN` or `IP.BIN`. Linux checks used WSL; full native Linux gameplay and hardware/performance qualification remain open. Full Quest playthrough coverage also remains open.
+- Adds VSync and frame-rate limit options, retaining the latest presentation pacing changes.
+- Fixes Quest terminal exit lookahead while allowing the car to keep driving down the ramp through the normal fade.
+- Disables Start-held alternate HUD colours; choose custom colours through Options instead.
+- Applies the selected HUD colour to the battle frame and SP label/fills. The FPS line stays green at 59 FPS and above, including 59.9/59.94 VSync timing.
+- Retains all Quick Race yellow-barrier walls, direct Next Round continuation, SP carry and the round display up to 999.
+- Both Release packages passed audits, platform smoke and intro-to-title checks without `1ST_READ.BIN` or `IP.BIN`. Linux checks used WSL; full native Linux gameplay, controller/audio hardware and performance qualification remain open. Full Quest playthrough coverage remains open.
 
 ## Getting started
 
