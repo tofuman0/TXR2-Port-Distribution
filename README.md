@@ -114,21 +114,21 @@ Explore cars, rivals, courses, and game mechanics in the [TXR2 documentation](ht
 
 ## Downloads
 
-Version **2026.0.6.288**
-Build revision: `ab20072f0ed84f9533c50adfed94b668ab57db6c`.
+Version **2026.0.6.289**
+Build revision: `23972c59227873d43a61a05b9454fdd7c371bf18`.
 
 | Platform | ZIP | SHA-256 |
 | --- | --- | --- |
-| Windows x64 | [txr2-2026.0.6.288-Windows-x64.zip](downloads/txr2-2026.0.6.288-Windows-x64.zip) | `28f06fbfef990d8eb9d9cac5a57422b6aaaf611f88f744bf65fd8c87c2be8bb7` |
-| Linux x64 | [txr2-2026.0.6.288-Linux-x64.zip](downloads/txr2-2026.0.6.288-Linux-x64.zip) | `59bae978be23ff31bc4801c07f411baf2d9bcff6a2d9e031d2830cb474d1cac5` |
+| Windows x64 | [txr2-2026.0.6.289-Windows-x64.zip](downloads/txr2-2026.0.6.289-Windows-x64.zip) | `4d9fa99f4cc84fe82bf4aace7079efa2f2c3e1790ded5a1be0d4aafb54ea2f71` |
+| Linux x64 | [txr2-2026.0.6.289-Linux-x64.zip](downloads/txr2-2026.0.6.289-Linux-x64.zip) | `06f8666ba745395d17a47eb791f76925078f850e7b2583217f44253849b416c5` |
 
 ## This build
 
-- Quest progression fixes, including replay/result camera restoration and consecutive battles.
-- Quest F7 instant win and cheat-only rival challenge debugging for focused tests.
-- Slower interface flashes, including battle result text.
-- Windows and Linux Release package audits, platform smoke and intro-to-title checks passed without `1ST_READ.BIN` or `IP.BIN`. Linux checks used WSL; native Linux hardware and performance remain unverified.
-- Focused Windows Quest checks reached 11 saved wins and verified a fresh reload. Full Quest playthrough coverage remains open; community reports are welcome.
+- All existing yellow barriers act as walls in Quick Race, including normal exit junctions, with unchanged visuals and normal wall impacts.
+- Next Round on the first win dialog skips replay and the second menu, while retaining the winning SP.
+- The round display extends to 999, with SP carried through round 100 to 101 and the original rival cycle preserved.
+- The user confirmed the barrier and Next Round fixes on Windows. Focused Windows checks include 1,794 barrier crossings and consecutive-round, Replay, Retry and Save Replay regression tests.
+- Both Release packages passed audits, platform smoke and intro-to-title checks without `1ST_READ.BIN` or `IP.BIN`. Linux checks used WSL; full native Linux gameplay and hardware/performance qualification remain open. Full Quest playthrough coverage also remains open.
 
 ## Getting started
 
