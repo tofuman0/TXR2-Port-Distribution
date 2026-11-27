@@ -114,21 +114,21 @@ Explore cars, rivals, courses, and game mechanics in the [TXR2 documentation](ht
 
 ## Downloads
 
-Version **2026.0.6.287**
-Build revision: `aa2a42ae`.
+Version **2026.0.6.288**
+Build revision: `ab20072f0ed84f9533c50adfed94b668ab57db6c`.
 
 | Platform | ZIP | SHA-256 |
 | --- | --- | --- |
-| Windows x64 | [txr2-2026.0.6.287-Windows-x64.zip](downloads/txr2-2026.0.6.287-Windows-x64.zip) | `8126a69bbbf5d75a5d5fbbd3a99ec78eb71b0ddecb4c3d522c5f980bf41ca2fd` |
-| Linux x64 | [txr2-2026.0.6.287-Linux-x64.zip](downloads/txr2-2026.0.6.287-Linux-x64.zip) | `1a44ed626c6a4da688c1bca70afee420c9b99ee34b13bca27a4eb7963f369156` |
+| Windows x64 | [txr2-2026.0.6.288-Windows-x64.zip](downloads/txr2-2026.0.6.288-Windows-x64.zip) | `28f06fbfef990d8eb9d9cac5a57422b6aaaf611f88f744bf65fd8c87c2be8bb7` |
+| Linux x64 | [txr2-2026.0.6.288-Linux-x64.zip](downloads/txr2-2026.0.6.288-Linux-x64.zip) | `59bae978be23ff31bc4801c07f411baf2d9bcff6a2d9e031d2830cb474d1cac5` |
 
 ## This build
 
-- Application-owned Vulkan renderer with loading, menu and pause fixes.
-- Grouped graphics settings, Vehicle Detail levels and scrolling Graphics Test controls.
-- Model-viewer numeric selection, factory colours, traffic styles and workshop fixes.
-- Corrected light/depth handling and rear-weighted car motion blur.
-- Windows and Linux Release startup checks passed without `1ST_READ.BIN` or `IP.BIN`. Linux was checked under WSL; no performance benchmarks were run.
+- Quest progression fixes, including replay/result camera restoration and consecutive battles.
+- Quest F7 instant win and cheat-only rival challenge debugging for focused tests.
+- Slower interface flashes, including battle result text.
+- Windows and Linux Release package audits, platform smoke and intro-to-title checks passed without `1ST_READ.BIN` or `IP.BIN`. Linux checks used WSL; native Linux hardware and performance remain unverified.
+- Focused Windows Quest checks reached 11 saved wins and verified a fresh reload. Full Quest playthrough coverage remains open; community reports are welcome.
 
 ## Getting started
 
@@ -162,11 +162,19 @@ pass `--rom-dir <path>`.
 | `--startup-test-delay-ms <N>`, `--startup-test-quit-ms <N>` | Delay startup preparation or quit after a test interval. |
 | `--play`, `--preview-quest-course` | Compatibility flags. Both allow normal startup. |
 
-In Quick Race, press F7 during GO to use instant win with cheats enabled.
+In Quick Race or Quest, press F7 during GO to use instant win with cheats enabled.
 Using it marks the run as cheated.
 
 In Graphics Test, F10 toggles the fixed Genki reflection target in the
 adjacent lane. The target starts hidden.
+
+## Community testing
+
+Useful checkpoints are the first team and save/reload, the first boss and new areas,
+Wanderer requirements, and ending/restart. Please report the build version,
+platform, steps, expected and actual behaviour, and an affected save and log.
+Say whether cheats were enabled. Fresh, cheats-off playthroughs provide the most
+useful normal progression coverage. Do not upload ROMs or original game assets.
 
 ## Screenshots
 
